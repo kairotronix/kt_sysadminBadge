@@ -1674,7 +1674,7 @@
       (reference "#PWR034") (unit 1) (value "GND") (footprint "")
     )
     (path "/293c46dc-42e7-4fe5-b2c2-a84317090ccc/aef67498-f8b2-4a4e-a0c4-cb51ae3dce28"
-      (reference "BT1") (unit 1) (value "Battery_4term") (footprint "kt_Connectors:custom_aaa_battconn")
+      (reference "BT1") (unit 1) (value "Battery_4term") (footprint "kt_Connectors:BH-AAA-B5AA001")
     )
     (path "/5befe1fc-94fb-4bf6-95b5-51c47cdf90eb"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
