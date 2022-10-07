@@ -6,6 +6,8 @@ The LCD being used is a standard 1.3" 240x240 display from Ali Express. Searchin
 
 The soldered-on cable was chosen for cost reduction.
 
+![Screen Shot 2022-10-06 at 22 36 14](https://user-images.githubusercontent.com/11863533/194462699-f6acb1cd-c8c2-43a3-a21d-cc2c588a0c68.png)
+
 # What is the idea
 In case of fire, a quick reaction is needed, but if you just woke up, if you are in the bathroom or in any compromising situation, the sysadmin must always respond to the user, and then fix the incident.
 
@@ -42,6 +44,3 @@ Did I say gifts
 
 # Conclusion
 Why make one badge electronic? Because is one good gift of your SysAdmin.
-
-
-
