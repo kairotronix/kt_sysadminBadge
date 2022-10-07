@@ -3,9 +3,9 @@ name: kicad pcb ops CI
 on:
   push:
     paths:
-    - '**.kicad_pcb'
-    - '**.sch'
-    - '**.pro'
+    - 'hardware/**.kicad_pcb'
+    - '*hardware/**.sch'
+    - 'hardware/**.pro'
     - '.github/workflows/**'
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
       with:
-        kicad-project-path: "."
+        kicad-project-path: "hardware"
         kicad-schematic-filename: "Power Management.kicad_sch"
         kicad-board-filename: "kt_sysadminBadge.kicad_pcb"
     # Use the output from the `hello` step
@@ -49,7 +49,7 @@ jobs:
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
       with:
-        kicad-project-path: "."
+        kicad-project-path: "hardware"
         kicad-schematic-filename: "Power Management.kicad_sch"
         kicad-board-filename: "kt_sysadminBadge.kicad_pcb"
     # Use the output from the `hello` step
@@ -79,7 +79,7 @@ jobs:
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
       with:
-        kicad-project-path: "."
+        kicad-project-path: "hardware"
         kicad-schematic-filename: "MCU_sch.kicad_sch"
         kicad-board-filename: "kt_sysadminBadge.kicad_pcb"
     # Use the output from the `hello` step
@@ -108,7 +108,7 @@ jobs:
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
       with:
-        kicad-project-path: "."
+        kicad-project-path: "hardware"
         kicad-schematic-filename: "kt_sysadminBadge.kicad_sch"
         kicad-board-filename: "kt_sysadminBadge.kicad_pcb"
     # Use the output from the `hello` step
