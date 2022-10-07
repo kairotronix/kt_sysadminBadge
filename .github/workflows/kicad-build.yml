@@ -27,10 +27,14 @@ jobs:
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
     - name: upload artifacts
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v3
       with:
         name: mainboard-artifact
-        path: output
+        path: |
+          path/output/bin/
+          path/output/test-results
+          !path/**/*.tmp 
+
     - name: Check the output for success or error
       run: |
         echo "Build result: ${{ steps.hello.outputs.message }}"
