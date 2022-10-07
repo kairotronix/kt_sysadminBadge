@@ -26,9 +26,13 @@ Cards
 Gifts
 
 Words of gratitude
+
 Custom t-shirts celebrating the epic greatness of your SysAdmin
+
 Balloons
+
 Confetti
+
 Did I say gifts
 
 # Conclusion
