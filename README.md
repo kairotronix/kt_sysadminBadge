@@ -1,3 +1,5 @@
+[![kicad pcb ops CI](https://github.com/kairotronix/kt_sysadminBadge/actions/workflows/kicad-build.yml/badge.svg)](https://github.com/kairotronix/kt_sysadminBadge/actions/workflows/kicad-build.yml)
+
 # SysAdmin Badge
 
 This is the PCB design for the SysAdmin Day badge.
