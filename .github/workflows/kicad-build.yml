@@ -15,7 +15,7 @@ jobs:
     name: build-mainboard-artifact
     steps:
     - name: checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: package schematic and pcbs
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
@@ -47,7 +47,7 @@ jobs:
     name: build-breakout-artifact
     steps:
     - name: checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: package schematic and pcbs
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
@@ -80,7 +80,7 @@ jobs:
     name: build-uSDAdapter-artifact
     steps:
     - name: checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: package schematic and pcbs
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
@@ -112,7 +112,7 @@ jobs:
     name: build-front-panel-artifact
     steps:
     - name: checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: package schematic and pcbs
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
