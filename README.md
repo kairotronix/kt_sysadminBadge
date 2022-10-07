@@ -18,9 +18,13 @@ Wait… what exactly is SysAdmin Day? it’s only the single greatest 24 hours o
 At this point, you may be thinking, “Great. I get it. My SysAdmin is a rock star. But now what?” Glad you asked! Proper observation of SysAdmin Day includes (but is not limited to):
 
 Cake & Ice cream
+
 Pizza
+
 Cards
+
 Gifts
+
 Words of gratitude
 Custom t-shirts celebrating the epic greatness of your SysAdmin
 Balloons
