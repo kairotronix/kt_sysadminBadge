@@ -79,7 +79,7 @@ jobs:
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
       with:
-        kicad-project-path: "hardware/boards"
+        kicad-project-path: "."
         kicad-schematic-filename: "MCU_sch.kicad_sch"
         kicad-board-filename: "kt_sysadminBadge.kicad_pcb"
     # Use the output from the `hello` step
@@ -108,7 +108,7 @@ jobs:
       id: hello
       uses: newdigate/kicad-github-action@v1.0.9
       with:
-        kicad-project-path: "hardware/front-panel"
+        kicad-project-path: "."
         kicad-schematic-filename: "kt_sysadminBadge.kicad_sch"
         kicad-board-filename: "kt_sysadminBadge.kicad_pcb"
     # Use the output from the `hello` step
